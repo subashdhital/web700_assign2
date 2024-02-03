@@ -14,13 +14,7 @@ class Data {
 
 let dataCollection = null;
 
-// Function to initialize data by creating a Data instance
-function initialize() {
-  // Create a Data class instance with students and courses data
-  dataCollection = new Data(students, courses);
-  // Resolve the promise to indicate successful initialization
-  return Promise.resolve();
-}
+
 
 // Function to get all students
 function getAllStudents() {
