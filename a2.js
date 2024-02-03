@@ -34,7 +34,7 @@ collegeData.initialize()
         console.error('Error retrieving courses:', error);
       });
 
-    // to get TAs
+    // to get Teaching Assistance
     collegeData.getTAs()
       .then((tas) => {
         console.log('Successfully retrieved ' + tas.length + ' TAs');
