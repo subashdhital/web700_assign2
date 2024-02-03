@@ -47,3 +47,4 @@ collegeData.initialize()
   .catch((error) => { 
     console.error('Initialization error:', error);
   });
+
